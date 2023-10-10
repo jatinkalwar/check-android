@@ -42,7 +42,7 @@ private boolean okk;
                 AlertDialog dialog = new AlertDialog.Builder(MainActivity.this).create();
                 dialog.setTitle("Delete");
                 dialog.setIcon(R.drawable.ic_launcher_background);
-                dialog.setButton("yes", new DialogInterface.OnClickListener() {
+                dialog.setButton("thik hai?", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         Toast.makeText(MainActivity.this, "okk", Toast.LENGTH_SHORT).show();
